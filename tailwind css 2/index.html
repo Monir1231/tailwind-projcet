@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en" class="dark" id="htmltag">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body class="bg-[#FAFAFA] dark:bg-gray-900">
+    <!-- header part -->
+    <header class="mt-2">
+        <nav class="container mx-auto p-0 m-0 flex items-center justify-between px-7 md:px-9 border-b pb-2">
+            <div>
+                <img src="img/header-logo.png" alt="logo" class="w-[100px] md:w-[150px] dark:bg-gray-300 dark:p-1">
+            </div>
+            <div class="dark:text-white">
+                <ul class="flex items-center text-xs md:text-lg gap-3 md:gap-8 ">
+                    <li class="hover:text-blue-600 transition-all cursor-pointer">Home</li>
+                    <li class="hover:text-blue-600 transition-all cursor-pointer">About Us</li>
+                    <li class="text-[#F44335] transition-all cursor-pointer">Upskill</li>
+                    <li class="hover:text-blue-600 transition-all cursor-pointer">Contact Us</li>
+                </ul>
+            </div>
+            <div class="flex items-center gap-3 md:gap-4">
+                <button class="bg-[#F44335] text-white md:text-base text-sm py-1 md:py-2 px-2 md:px-5 font-semibold rounded hover:bg-[#ff00b3] transition-all hover:scale-105 hover:translate-y-1">Register Interest</button>
+               
+
+                 <button id="btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 md:size-8 dark:text-white">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+                      </svg>  
+                 </button>
+                   
+                        
+             
+                    
+               
+            </div>
+        </nav>
+    </header>
+
+    <!-- banner part -->
+    <section class="container mx-auto grid grid-cols-12 md:px-12 px-4 pt-10">
+        <!-- text section -->
+        <section class="md:col-span-6 col-span-12 md:ml-8">
+            <div class="md:hidden flex items-center justify-center mt-[30px] mb-5">
+                <img src="img/Group 1964.png" alt="img" class="w-[400px] items-center">
+            </div>
+            <div class="items-center dark:text-white">
+                <h3 class="text-2xl md:text-3xl font-semibold pb-2 md:pb-3 md:mt-[80px]">Discover - Interact - Engage</h3>
+                <h1 class="text-6xl md:text-7xl font-bold">Google <br>
+                    <span class="text-[#F44335] border-b border-b-[#F44335] md:border-b-[3px] md:mb-3">IT Support </span><br>
+                </h1>
+                <h1 class="text-6xl md:text-7xl font-bold md:mt-5 mt-3">Certificate</h1>
+                <p class="text-lg md:text-lg pt-7 md:pt-8 pb-10 text-[#072125] dark:text-white">This is your path to a career in IT. In this program, you’ll learn in-demand skills with no degree or experience required.</p>
+            </div>
+
+            <div class="flex items-center gap-10 dark:text-white">
+                <div >
+                    <p class="text-lg md:text-xl font-bold text-[#00FF84] ml-1 md:ml-3">438</p>
+                    <p class="text-sm md:text-lg font-semibold">Videos</p>
+                </div>
+
+                <div>
+                    <p class="text-lg md:text-xl font-bold text-[#00FF84] ml-1 md:ml-3">151</p>
+                    <p class="text-sm md:text-lg font-semibold">Readings</p>
+                </div>
+
+                <div>
+                    <p class="text-lg md:text-xl font-bold text-[#00FF84] ml-1 md:ml-3">108</p>
+                    <p class="text-sm md:text-lg font-semibold">Quizzes</p>
+                </div>
+
+                <div>
+                    <p class="text-lg md:text-xl font-bold text-[#00FF84] ml-1 md:ml-3">24</p>
+                    <p class="text-sm md:text-lg font-semibold">Exercises</p>
+                </div>
+
+                <div>
+                    <p class="text-lg md:text-xl font-bold text-[#00FF84] ml-1 md:ml-3">4</p>
+                    <p class="text-sm md:text-lg font-semibold">Exercises</p>
+                </div>
+            </div>
+
+            <div class="flex items-center gap-6">
+                <button class="text-sm md:text-base bg-[#F44335] text-white py-2 md:py-3 px-6 md:px-8 my-9 rounded hover:bg-teal-700 transition-all duration-300 hover:cursor-pointer">Sign up</button>
+                <button class="text-sm md:text-base bg-[#FFFFFF] text-black border py-2 md:py-3 px-6 md:px-8 my-7 rounded transition-all duration-300 hover:cursor-pointer">Learn more</button>
+            </div>
+        </section>
+
+        <!-- img section -->
+        <section class="md:col-span-6 col-span-12 md:mr-8 absolute  right-8 ">
+            <div class="opacity-0 md:opacity-100 mt-[74px] flex items-center justify-center">
+                <img src="img/Group 1964.png" alt="logo" class="w-full md:w-[500px] md:ml-24 ">
+            </div>
+        </section>
+    </section>
+
+    <!-- company section -->
+    <section class=" container grid grid-cols-12 md:px-12 px-4 relative items-center dark:bg-slate-300 dark:mr-12" >
+        <section class="col-span-3">
+        <div>
+            <p class="md:text-lg text-[8px] md:ml-2">Pave your path to career success by gaining  a  professional  Google certificate with the support of C4U</p>
+        </div>
+        </section>
+
+        <section class="col-span-3">
+            <div>
+                <img src="img/Google.png" alt="logo" class="md:w-fit w-24 md:ml-14 ml-4">
+            </div>
+            </section>
+
+
+            <section class="col-span-3">
+                <div>
+                    <img src="img/Work & Pensions (1).png" alt="logo"  class="md:w-fit w-24 md:ml-24 ml-4 dark:">
+                </div>
+                </section>
+
+
+                <section class="col-span-3">
+                    <div>
+                        <img src="img/c4u full logo_2022 1 (1).png" alt="logo"  class="md:w-fit w-24 md:ml-16 ml-6">
+                    </div>
+                    </section>
+              </section>
+
+
+    <!-- skills part  -->
+
+
+    <section class="container mx-auto grid grid-cols-12 md:px-12 px-4 md:mt-20 mt-11">
+       <!-- part 1 -->
+        <section class="md:col-span-6 col-span-12 items-center  md:mb-0 mb-5 md:mr-4 dark:text-white ">
+        <div class="border rounded  md:p-6 p-4 hover:scale-105 transition-all duration-300 cursor-pointer">
+            <h3 class="md:text-xl test-lg font-semibold pb-2.5 border-b border-b-[#F9CCC7] md:border-b-[2px] mb-4">What you will learn</h3>
+
+              <div class="pt-2 md:pt-8 ">
+                
+                <div class="chack-bot">
+                    <a href="#"><i class="fa-solid fa-check  md:size-9 size-6 bg-[#F9CCC7] flex items-center justify-center rounded-full"></i></a>
+    
+                    <p class="text-xs font-semibold md:text-lg">Gain skills required to succeed in an entry-level IT job</p>
+                  </div>
+    
+    
+                  <div class="chack-bot">
+                    <a href="#"><i class="fa-solid fa-check  md:size-9 size-6 bg-[#F9CCC7] flex items-center justify-center rounded-full"></i></a>
+    
+                    <p class="text-xs font-semibold md:text-lg">Learn to perform day-to-day IT support tasks including computer assembly, wireless networking, installing programs, and customer service</p>
+                  </div>
+    
+    
+                  <div class="chack-bot">
+                    <a href="#"><i class="fa-solid fa-check  md:size-9 size-6 bg-[#F9CCC7] flex items-center justify-center rounded-full"></i></a>
+    
+                    <p class="text-xs font-semibold md:text-lg">Learn how to provide end-to-end customer support, ranging from identifying problems to troubleshooting and debugging</p>
+                  </div>
+    
+    
+                  <div class="chack-bot">
+                    <a href="#"><i class="fa-solid fa-check  md:size-9 size-6 bg-[#F9CCC7] flex items-center justify-center rounded-full"></i></a>
+    
+                    <p class="text-xs font-semibold md:text-lg">Learn to use systems including Linux, Domain Name Systems, Command-Line Interface, and Binary Code</p>
+                  </div>
+              </div>
+             
+            
+        </div>
+
+        </section>
+       <!-- part 2 -->
+        <section class="md:col-span-6 col-span-12 md:ml-4 dark:text-white">
+
+            <div class="border rounded md:p-6 p-4 hover:scale-105 transition-all duration-300 cursor-pointer mb-10">
+                <img src="img/IT_social 1.png" alt="" class="w-fit">
+
+                <h3 class="md:text-xl test-lg font-semibold pb-2.5 border-b border-b-[#F9CCC7] md:border-b-[2px] mb-4">What you will learn</h3>
+
+                
+                   <div class="flex items-center gap-3 md:gap-5 py-2 md:py-3">
+                    <p class="head-card">Debugging</p>
+                    <p class="head-card ">Customer Service</p>
+                    <p class="head-card ">Customer Support</p>
+                   </div>
+
+                   <div class="flex items-center gap-3 md:gap-5 py-2 md:py-3">
+                    <p class="head-card">Domain Name System (DNS)</p>
+                    <p class="head-card ">Network Model</p>
+                    <p class="head-card ">Linux</p>
+                   </div>
+
+                   <div class="flex items-center gap-3 md:gap-5 py-2 md:py-2.5">
+                    <p class="head-card">Encryption Algorithms and Techniques</p>
+                    <p class="head-card ">Network Protocols</p>
+                    
+                   </div>
+
+
+                   <div class="flex items-center gap-3 md:gap-5 py-2 md:py-2.5">
+                    <p class="head-card">Ipv4</p>
+                    <p class="head-card ">Troubleshooting</p>
+                    <p class="head-card ">Binary Code</p>
+                    <p class="head-card ">Cloud Computing</p>
+                   </div>
+
+            </div>
+        </section>
+    </section>
+
+    <!-- jobs part start -->
+
+    <section class="container mx-auto grid grid-cols-12 md:px-12 px-4 md:mt-12 mt-5 mb-16 dark:text-white">
+        <!-- 1 st part -->
+        <section class="md:col-span-6 col-span-12 items-center  md:mb-0 mb-5 md:mr-4">
+                <div class="border rounded  md:p-6 p-4 hover:scale-105 transition-all duration-300 cursor-pointer">
+                    <h3 class="md:text-xl test-lg font-semibold pb-2.5 border-b border-b-[#F9CCC7] md:border-b-[2px] mb-4">Jobs Assocaited with Certificate </h3>
+
+                   
+                  <section class="grid grid-cols-12 items-center pt-3 md:pt-4">
+                    <div class="col-span-6 md:ml-2 ml-10">
+                    <div class="flex items-center gap-2 md:gap-3 pb-3 md:pb-5">
+                        <a href="#"><i class="fa-solid fa-arrow-right bg-[#F9CCC7] md:size-6 size-5 rounded-full flex items-center justify-center"></i></a>
+                      
+                       <p class="text-xs font-semibold md:text-lg">Database administrator</p>
+                    </div>
+    
+    
+                    <div class="flex items-center gap-2 md:gap-3 pb-3 md:pb-5">
+                        <a href="#"><i class="fa-solid fa-arrow-right bg-[#F9CCC7] md:size-6 size-5 rounded-full flex items-center justify-center"></i></a>
+                      
+                       <p class="text-xs font-semibold md:text-lg">Tech support specialist</p>
+                    </div>
+    
+    
+    
+                    <div class="flex items-center gap-2 md:gap-3 pb-3 md:pb-5">
+                        <a href="#"><i class="fa-solid fa-arrow-right bg-[#F9CCC7] md:size-6 size-5 rounded-full flex items-center justify-center"></i></a>
+                      
+                       <p class="text-xs font-semibold md:text-lg">IT specialist</p>
+                    </div>
+
+                    <div class="flex items-center gap-2 md:gap-3 pb-3 md:pb-5">
+                        <a href="#"><i class="fa-solid fa-arrow-right bg-[#F9CCC7] md:size-6 size-5 rounded-full flex items-center justify-center"></i></a>
+                      
+                       <p class="text-xs font-semibold md:text-lg">Systems analyst</p>
+                    </div>
+    
+    
+                    <div class="flex items-center gap-2 md:gap-3 pb-3 md:pb-5">
+                        <a href="#"><i class="fa-solid fa-arrow-right bg-[#F9CCC7] md:size-6 size-5 rounded-full flex items-center justify-center"></i></a>
+                      
+                       <p class="text-xs font-semibold md:text-lg">Network engineer</p>
+                    </div>
+                </div>
+    
+                
+
+
+    
+                    <div class="col-span-6 md:ml-2 ml-10">
+                        
+                        <div class="flex items-center gap-2 md:gap-3 pb-3 md:pb-5">
+                            <a href="#"><i class="fa-solid fa-arrow-right bg-[#F9CCC7] md:size-6 size-5 rounded-full flex items-center justify-center"></i></a>
+                          
+                           <p class="text-xs font-semibold md:text-lg">Help desk technician</p>
+                        </div>
+    
+                        <div class="flex items-center gap-2 md:gap-3 pb-3 md:pb-5">
+                            <a href="#"><i class="fa-solid fa-arrow-right bg-[#F9CCC7] md:size-6 size-5 rounded-full flex items-center justify-center"></i></a>
+                          
+                           <p class="text-xs font-semibold md:text-lg">IT support spcialist</p>
+                        </div>
+        
+        
+                        <div class="flex items-center gap-2 md:gap-3 pb-3 md:pb-5">
+                            <a href="#"><i class="fa-solid fa-arrow-right bg-[#F9CCC7] md:size-6 size-5 rounded-full flex items-center justify-center"></i></a>
+                          
+                           <p class="text-xs font-semibold md:text-lg">IT technician</p>
+                        </div>
+        
+        
+        
+                        <div class="flex items-center gap-2 md:gap-3 pb-3 md:pb-5">
+                            <a href="#"><i class="fa-solid fa-arrow-right bg-[#F9CCC7] md:size-6 size-5 rounded-full flex items-center justify-center"></i></a>
+                          
+                           <p class="text-xs font-semibold md:text-lg">Computer user specialist</p>
+                        </div>
+        
+        
+                        
+        
+        
+                        <div class="flex items-center gap-2 md:gap-3 pb-3 md:pb-5">
+                            <a href="#"><i class="fa-solid fa-arrow-right bg-[#F9CCC7] md:size-6 size-5 rounded-full flex items-center justify-center"></i></a>
+                          
+                           <p class="text-xs font-semibold md:text-lg">IT assitant </p>
+                        </div>
+                    </div>
+                </section>
+
+                 </div>
+                </section>
+               
+              
+
+        <!-- 2 nd part -->
+
+        <section class="md:col-span-6 col-span-12 md:ml-4">
+         <div class="md:mt-1">
+            <img src="img/IT Support 1.png" alt="">
+         </div>
+    </section>
+</section>
+
+
+<!-- middel part  -->
+
+<section class="container mx-auto grid-cols-12 md:px-16 px-5 mb-10 md:mt-20 relative dark:text-white">
+
+    <div class=" ">
+        <h2 class="text-2xl md:text-5xl md:font-bold font-semibold mb-3 md:mb-5">There are 5 Courses in this <br>Professional Certificate</h2>
+
+       
+
+        <div class="flex items-center gap-3 md:gap-8 pb-3 md:pb-5 border-b"> 
+            <p class="course">Course  1 </p>
+            <p class="course">Course  2 </p>
+            <p class="course">Course  3</p>
+            <p class="course"> Course  4</p>
+            <p class="course">Course  5 </p>
+        </div>
+
+       
+    </div>
+
+</section>
+
+<div class="absolute md:top-[2000px] top-[2700px] right-0">
+    <img src="img/Group 238902.png" alt="logo" class="md:w-fit w-[170px]">
+</div>
+
+
+
+<!-- curser part -->
+
+<section class="container mx-auto grid-cols-12 md:px-16 px-5 mb-10 md:mt-72 ">
+    <div class="relative">
+        <img src="img/Group 238901.png" alt="logo" class=" w-fit ">
+    </div>
+
+    <div class="container mx-auto grid-cols-12 md:px-16 px-5 absolute top-[3190px] md:top-[3165px] md:ml-16 ml-8 left-0">
+        <img src="img/Connector Vector.png" alt="img" class="md:w-[1000px] w-[450px] ">
+    </div>
+
+    <div class="relative md:mt-[250px] mt-[119px]">
+        <img src="img/Group 238901.png" alt="logo" class="w-fit">
+    </div>  
+
+
+    <div class="container mx-auto grid-cols-12 md:px-16 px-5 absolute top-[3715px] md:top-[4280px] md:ml-16 ml-8 left-0">
+        <img src="img/Connector Vector (1).png" alt="img" class="md:w-[1000px] w-[450px] ">
+    </div>
+
+    <div class="relative md:mt-[360px] mt-40">
+        <img src="img/Group 238901.png" alt="logo" class="w-fit">
+    </div>
+
+    
+    <div class="container mx-auto grid-cols-12 md:px-16 px-5 absolute top-[4222px] md:top-[5384px] md:ml-16 ml-8 left-0">
+        <img src="img/Connector Vector (1).png" alt="img" class="md:w-[1000px] w-[450px] ">
+    </div>
+
+    <div class="relative md:mt-[360px] mt-40">
+        <img src="img/Group 238901.png" alt="logo" class="w-fit">
+    </div>  
+
+
+    <div class="container mx-auto grid-cols-12 md:px-16 px-5 absolute top-[4673px] md:top-[6373px] md:ml-16 ml-8 left-0">
+        <img src="img/Connector Vector.png" alt="img" class="md:w-[1000px] w-[450px] ">
+    </div>
+
+    <div class="relative md:mt-[250px] mt-[119px] md:mb-40">
+        <img src="img/Group 238901.png" alt="logo" class="w-fit">
+    </div>  
+
+    
+    
+</section>
+
+
+<!-- commnition section -->
+
+    
+    <section class=" md:py-32 py-24  md:pl-44 bg-[url('https://s3-alpha-sig.figma.com/img/898a/83bb/c6743181cc35f6236a07b4b6fb40d2b8?Expires=1736726400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=AzxvQItZngixFH1PnybIJbMa8IYBAA-QZFp0cvI7nqMUdd6HclPlNcJgc9MSchc30wlTC7lmlFWCfreFcZ6vnKn68uSSXE5YmBiX0PW9yfuzMkPdyshOba06aFzV4cIJbTP0UL1soDGnInhzNl6Fgh4CW0RhBoi1B11M4GnWw~h-3vN-tWt~5cKr2YIWhkhW3BVi0iXEz1Ivhuj29EU8bCBuXYmOpKDAdex1hjMQFzsQ~uIwCecWfhhDBuRcbfFyuC0EU410-wEXAd9vOrQgIbTPFgVjbzBEdGYnXrpfjOezrGxq8T0V~Df597F7RuPZcCPhhMOhe9fG0BfPn2olyw__')] w-full bg-no-repeat bg-center bg-cover  ">
+
+   <section class="grid grid-cols-12">
+    
+    <section class="grid md:col-span-5 col-span-12"> 
+        <div class="bg-white md:mx-0 mx-20 p-3 rounded hover:ring" >
+        <img src="img/“.png" alt="logo" class="md:w-9 w-5">
+        <h2 class="md:text-xl text-lg font-semibold pt-3 md:pt-5 pb-4 md:pb-3 ">I worked in retail and needed to make a  change. The certificate is really  designed for you to go at your own  pace. This is something that anybody  can do</h2>
+
+        <p class="text-[#F9CCC7] text-xs md:text-sm">Daniel, IT Support Specialist at Central Community College and Google IT Support Certificate graduate</p>
+       </div>
+    </section>
+
+    <section class="grid md:col-span-7 col-span-12"></section>
+  </section>
+  </section>
+     
+    </section>
+
+
+<footer class="mt-20 md:ml-4 ">
+    <section class="grid grid-cols-12 md:px-16 px-5 pb-7 ">
+
+        <section class="grid col-span-3 ">
+         <img src="img/c4u full logo_2022 1.png" alt="logo" class="md:w-fit w-20 md:pb-2 pb-1 dark:bg-gray-300 dark:p-1 dark:mb-1 ">
+         <p class="footer-card">Level39</p>
+         <p class="footer-card"> One Canada Square</p>
+         <p class="footer-card">Canary Wharf</p>
+         <p class="footer-card">London</p>
+         <p class="footer-card"> E14 5AB</p>
+        </section>
+
+
+        
+
+            <section class="grid col-span-2">
+                <div class="md:ml-40">
+                    <h4 class="md:text-sm text-sm font-semibold md:font-bold pt-2 md:mb-4  md:pt-6 text-[#20484F] dark:text-gray-300">Home</h4>
+                    <p class="footer-card-2 ">Collaborations</p>
+                    <p class="footer-card-2">Statistics</p>
+                    <p class="footer-card-2">How It Works </p>
+                    <p class="footer-card-2">Testimonials </p>
+                </div>
+            </section>
+            <section class="grid col-span-3">
+                <div class="ml-6 md:ml-40">
+                    <h4 class="md:text-sm text-sm font-semibold md:font-bold pt-2 pb-2 md:mb-4  md:pt-6 text-[#20484F] dark:text-gray-300">About Us</h4>
+                    <p class="footer-card-2 ">Who We Are</p>
+                    <p class="footer-card-2">Mission statement </p>
+                    <p class="footer-card-2">Our Vision </p>
+                    <p class="footer-card-2">The  Team </p>
+                </div>
+            </section>
+            <section class="grid col-span-2">
+                <div class="ml-2 md:ml-24">
+                    <h4 class="md:text-sm text-sm font-semibold md:font-bold pt-2 pb-2 md:mb-4  md:pt-6 text-[#20484F] dark:text-gray-300">The Team </h4>
+                    <p class="footer-card-2 ">It Support </p>
+                    <p class="footer-card-2">It Support </p>
+                    <p class="footer-card-2">Data Analysts</p>
+                    <p class="footer-card-2">Ux Design</p>
+                </div>
+            </section>
+    
+            <section class="grid col-span-2 ">
+                <div class="ml-2 md:ml-20">
+                    <h4 class="md:text-sm text-sm font-semibold md:font-bold pt-2 pb-2 md:mb-4 md:pt-6 text-[#20484F] dark:text-gray-300">Contact Us </h4>
+                    <p class="footer-card-2 ">Your message </p>
+                    <p class="footer-card-2">Email </p>
+                    <p class="footer-card-2">Phone number </p>
+                    <p class="footer-card-2">Linkedin </p>
+                </div>
+            </section>
+    
+       
+    </section>
+</footer>
+
+
+<!-- copyright part -->
+
+<footer class="border-t md:py-4 py-3">
+    <div class="text-center md:ml-7 dark:text-gray-300">
+      <p class="text-sm">
+        &COPY; Copyright 2022 Creatives For You LTD
+      </p>
+    </div>
+  </footer>
+
+
+  <!-- js part -->
+
+  <script>
+    const htmltag =document.getElementById("htmltag");
+    document.getElementById("btn").addEventListener("click", function(){
+        htmltag.classList.toggle("dark");
+    });
+  </script>
+ 
+
+</body>
+</html>
